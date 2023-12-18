@@ -1,0 +1,28 @@
+print("MY LOGIN SYSTEM")
+print("+++++++++++++++")
+user = input("User > ")
+password = input("Password > ")
+
+if user == "david" and password == "totallynotbald":
+  print("Why hello there David, what a lovely accent you have, you could have charmed your way in here even without a password")
+  print()
+  print("Have a great day.")
+  print()
+  print("Don't forget to wear a hat in the sun!")
+
+elif user == "suzanne" and password == "su74nne":
+  print("Hey there Suzanne!")
+  print()
+  print("You look really pretty today! As always.")
+  print()
+  print("Have a great day!")
+
+elif user == "keerthana" and password == "k33rth4n4":
+  print("Hey there Keerthana!")
+  print()
+  print("Hope you're doing well!")
+  print()
+  print("Have a great day !")
+
+else:
+  print("Hey", user, "! Sorry but you're not allowed to access this system. Try verifying your username and password or create a new account!")
