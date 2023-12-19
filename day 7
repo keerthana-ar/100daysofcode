@@ -1,0 +1,51 @@
+print("One Piece Fake Fan Finder")
+print("---------------")
+print("If you don't know the answer to a question, just guess or type 'umm'")
+name = input("What is your favourite anime?? ") 
+if name == "one piece":
+  favechar = input("Oh Really?! Name me any of the characters: ")
+  if favechar == "nami":
+    job = input("You got that by pure chance. Okay then, what is her job on the ship?: ")
+    if job == "navigator":
+      bounty = input("Hmph! What was her first bounty then?: ")
+      if bounty == "16000000":
+        print("You are a true fan")
+      else:
+        print("See! FAKE One Piece Fan!")
+    else:
+      print("See! FAKE One Piece Fan!")
+      
+  elif favechar == "luffy":
+    job = input("You got that by pure chance. Okay then, what is his job on the ship?: ")
+    if job == "captain":
+      bounty = input("Hmph! What was his first bounty then?: ")
+      if bounty == "30000000":
+        print("You are a true fan")
+      else:
+        print("See! FAKE One Piece Fan!")
+    else:
+      print("See! FAKE One Piece Fan!")
+
+  elif favechar == "zoro":
+    job = input("You got that by pure chance. Okay then, what is his job on the ship?: ")
+    if job == "swordsman" or "firstmate":
+      bounty = input("Hmph! What was his first bounty then?: ")
+      if bounty == "60000000":
+        print("You are a true fan")
+      else:
+        print("See! FAKE One Piece Fan!")
+    else:
+      print("See! FAKE One Piece Fan!")
+
+  elif favechar == "sanji":
+    job = input("You got that by pure chance. Okay then, what is his job on the ship?: ")
+    if job == "chef" or "cook":
+      bounty = input("Hmph! What was his first bounty then?: ")
+      if bounty == "77000000":
+        print("You are a true fan")
+      else:
+        print("See! FAKE One Piece Fan!")
+    else:
+      print("See! FAKE One Piece Fan!")
+else:
+  print("You're at the wrong place. Go away! Shoo!")
