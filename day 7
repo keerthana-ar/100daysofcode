@@ -39,7 +39,7 @@ if name == "one piece":
 
   elif favechar == "sanji":
     job = input("You got that by pure chance. Okay then, what is his job on the ship?: ")
-    if job == "chef" or "cook":
+    if job == "chef" or job == "cook":
       bounty = input("Hmph! What was his first bounty then?: ")
       if bounty == "77000000":
         print("You are a true fan")
