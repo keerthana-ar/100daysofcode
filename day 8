@@ -1,0 +1,29 @@
+print("Wholesome Positivity Machine")
+print()
+name = input("Who are you???")
+print()
+if name == "David" or name == "david":
+  print("Hi David!")
+  print()
+  day = input("What day is it today?")
+  print()
+  if day == "Monday" or day == "monday":
+    print("How do cheeses greet each other on Monday mornings? Have a Gouda week.")
+  if day == "Tuesday" or day == "tuesday":
+    print("Tuesday is the second worst day of the week but I hope that yesterday was a good day and am sure today is gonna be great for you as well!")
+  if day == "Wednesday" or day == "wednesday":
+    print("Why did the man call it a weekend on a Wednesday? Because he said, 'After two days it will be Friday, which makes tomorrow a pre-Friday, hence, it is a weekend on Wednesday")
+  if day == "Thursday" or day == "thursday":
+    print("Some people call it Thursday, I like to call it Friday Eve")
+  if day == "Friday" or day == "friday":
+    print("""Knock knock.
+Who’s there?
+Friday.
+Friday who?
+Friday who loves you too.""")
+  if day == "Saturday" or day == "saturday":
+    print("What do cows do on Saturday nights? They go to the mooooovies. Haha")
+  if day == "Sunday" or day == "sunday":
+    print("Why is Sunday such a fun day? Because all you really have to do is sleep until you’re hungry, and then eat until you feel sleepy.")
+else:
+  print("I don't know you but I hope you'll have a great day!")
