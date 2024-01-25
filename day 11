@@ -1,0 +1,12 @@
+print("\033[33m 60 seeconds in one minute")
+print("\033[31m 60 minutes in one hour")
+print("\033[35m 24 hours in one day")
+print("\033[32m ==================================")
+year = int(input("What year are you in? "))
+if year%4 == 0:
+  print("There are 366 days in this year")
+  print("and 60*60*24*366 = ",60*60*24*366,"seconds")
+else:
+  print("There are 365 days in this year")
+  print("and 60*60*24*365 = ",60*60*24*365,"seconds")
+print("\033[32m ==================================")
