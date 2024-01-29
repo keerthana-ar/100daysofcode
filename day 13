@@ -1,0 +1,21 @@
+print("Exam Grade Calculator")
+print()
+name = input("Enter the name of the exam: ")
+max = input("Maximum possible score: ")
+score = input("Your score: ")
+percent = float(score) / float(max) * 100
+percent = round(percent, 2)
+if percent >= 90:
+    grade = "A+"
+elif percent >= 80:
+    grade = "A"
+elif percent >= 70:
+    grade = "B"
+elif percent >= 60:
+    grade = "C"
+elif percent >= 50:
+    grade = "D"
+else:
+    grade = "U"
+print()
+print("You got", percent, "% which is a" ,grade)
