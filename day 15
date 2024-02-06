@@ -1,0 +1,24 @@
+exit = " "
+while exit != "yes":
+    animal = input("What animal do you want?: ")
+    if animal == "cow":
+        print("A cow goes moo.")
+    elif animal == "dog":
+        print("A dog goes woof.")
+    elif animal == "cat":
+        print("A cat goes meow.")
+    elif animal == "sheep" or animal == "goat":
+        print("A ",animal, " goes baa.")
+    elif animal == "duck":
+        print("A duck goes quack.")
+    elif animal == "horse":
+        print("A horse goes neigh.")
+    elif animal == "pig":
+        print("A pig goes oink.")
+    elif animal == "chicken" or animal == "rooster":
+        print("A ",animal, " goes cock-a-doodle-doo.")
+    elif animal == "lion" or animal == "tiger":
+        print("A ", animal, " goes rawr.")
+    else:
+        print("Ummm... the ",animal," goes awooga?")
+exit = input("Do you want to exit?: ")
